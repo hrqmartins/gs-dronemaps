@@ -1,0 +1,357 @@
+@media (max-width: 600px) {
+  .cabecalho {
+    padding: 8px;
+  }
+
+  .cabecalho-logo {
+    height: 60px;
+  }
+
+  .cabecalho-logo img {
+    height: 40px;
+  }
+
+  .hamburger {
+    right: 20px;
+    width: 23px;
+    height: 19px;
+    top: 32%;
+  }
+
+  .nav-menu {
+    width: 85%;
+    max-width: 280px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .main-gray {
+    height: 200px;
+  }
+
+  .main-botao {
+    top: 10px;
+    right: 10px;
+  }
+
+  .main-botao-botao {
+    width: 120px;
+    font-size: 12px;
+    height: 28px;
+    padding: 0 8px;
+  }
+
+  .section-solucao {
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .section-texto {
+    padding-right: 0;
+  }
+
+  .section-solucao h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .section-solucao p {
+    font-size: 16px;
+  }
+
+  .solucao-div {
+    text-align: center;
+  }
+
+  .section-botao {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .img-solucao {
+    flex: none;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .section-faq {
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .section-box {
+    flex: none;
+  }
+
+  .faq-details-main-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .faq-botao {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .suporte {
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .barra-vertical {
+    display: none;
+  }
+
+  .suporte-titulo,
+  .suporte-titulo-direita {
+    font-size: 20px;
+  }
+
+  .suporte-paragrafo,
+  .suporte-paragrafo-direita {
+    font-size: 16px;
+  }
+
+  .team-section {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .team-landing {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .team-desc {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .footer {
+    padding: 30px 15px 15px 15px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-section h3 {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .pagina-list {
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .main-gray {
+    height: 300px;
+  }
+
+  .main-botao-botao {
+    width: 160px;
+    font-size: 14px;
+  }
+
+  .section-solucao h1 {
+    font-size: 28px;
+  }
+
+  .section-solucao p {
+    font-size: 18px;
+  }
+
+  .faq-details-main-title {
+    font-size: 24px;
+  }
+
+  .team-landing {
+    font-size: 18px;
+  }
+
+  .team-desc {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cabecalho-logo {
+    height: 80px;
+  }
+
+  .cabecalho-logo img {
+    height: 55px;
+  }
+
+  .main-gray {
+    height: 400px;
+  }
+
+  .main-botao-botao {
+    width: 180px;
+    font-size: 15px;
+    height: 32px;
+  }
+
+  .section-solucao {
+    flex-direction: row;
+    padding: 25px;
+  }
+
+  .section-texto {
+    padding-right: 20px;
+  }
+
+  .solucao-div {
+    text-align: left;
+  }
+
+  .section-botao {
+    width: 120px;
+  }
+
+  .img-solucao {
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+
+  .section-faq {
+    flex-direction: row;
+    padding: 25px;
+  }
+
+  .section-box {
+    flex: 0 0 320px;
+  }
+
+  .faq-details-main-title {
+    text-align: left;
+  }
+
+  .suporte {
+    flex-direction: row;
+    padding: 25px;
+  }
+
+  .barra-vertical {
+    display: block;
+  }
+
+  .suporte-titulo,
+  .suporte-titulo-direita {
+    text-align: center;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .footer-section h3 {
+    text-align: left;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
+
+  .pagina-list {
+    text-align: left;
+  }
+
+  .footer-section:last-child {
+    justify-self: end;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    padding: 40px;
+  }
+
+  .main-gray {
+    height: 480px;
+  }
+
+  .main-botao-botao {
+    width: 200px;
+    font-size: 15px;
+    height: 30px;
+  }
+
+  .section-solucao h1 {
+    font-size: 32px;
+  }
+
+  .section-solucao p,
+  .suporte-paragrafo,
+  .suporte-paragrafo-direita {
+    font-size: 20px;
+  }
+
+  .faq-details-main-title {
+    font-size: 26px;
+  }
+
+  .team-landing {
+    font-size: 20px;
+  }
+
+  .team-desc {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1300px) {
+  main {
+    padding: 50px;
+  }
+
+  .section-solucao,
+  .section-faq,
+  .suporte {
+    padding: 35px;
+  }
+
+  .section-solucao h1 {
+    font-size: 36px;
+  }
+
+  .faq-details-main-title {
+    font-size: 30px;
+  }
+
+  .team-section {
+    padding: 25px;
+  }
+
+  .team-landing {
+    font-size: 22px;
+    padding: 15px 40px;
+  }
+
+  .team-desc {
+    font-size: 18px;
+    max-width: 700px;
+  }
+
+  .footer {
+    padding: 50px 25px 25px 25px;
+  }
+}

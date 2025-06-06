@@ -1,0 +1,317 @@
+@media (min-width: 600px) {
+  .container {
+    padding: 0 20px;
+  }
+  .hamburger {
+    right: 20px;
+    width: 23px;
+    height: 19px;
+    top: 45%;
+  }
+
+  .nav-menu {
+    width: 85%;
+    max-width: 280px;
+  }
+
+  .cabecalho-logo {
+    height: 90px;
+  }
+
+  .cabecalho-logo img {
+    height: 55px;
+  }
+
+  .hamburger {
+    width: 26px;
+    height: 20px;
+    right: 30px;
+  }
+
+  .hamburger-line {
+    height: 3.5px;
+  }
+
+  .nav-menu {
+    width: 300px;
+    padding-top: 70px;
+  }
+
+  .nav-menu a {
+    padding: 18px 28px;
+    font-size: 15px;
+  }
+
+  .main-content {
+    padding: 40px 0;
+  }
+
+  .content-section {
+    gap: 35px;
+  }
+
+  .image-placeholder {
+    height: 220px;
+    font-size: 1.05rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 22px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .description p {
+    margin-bottom: 18px;
+  }
+}
+
+/* ===========================================
+   BREAKPOINT: Medium devices (768px and up)
+   =========================================== */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .cabecalho-logo {
+    height: 100px;
+  }
+
+  .cabecalho-logo img {
+    height: 60px;
+  }
+
+  .hamburger {
+    width: 28px;
+    right: 35px;
+  }
+
+  .hamburger-line {
+    height: 4px;
+  }
+
+  .nav-menu {
+    width: 320px;
+    padding-top: 80px;
+  }
+
+  .nav-menu a {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+
+  .main-content {
+    padding: 50px 0;
+  }
+
+  .content-section {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .image-placeholder {
+    height: 250px;
+    font-size: 1.1rem;
+  }
+
+  .text-content {
+    padding: 15px 0;
+  }
+
+  .section-title {
+    font-size: 1.35rem;
+    margin-bottom: 24px;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .description p {
+    margin-bottom: 20px;
+  }
+}
+
+/* ===========================================
+   BREAKPOINT: Large devices (992px and up)
+   =========================================== */
+@media (min-width: 992px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .cabecalho {
+    padding: 15px;
+  }
+
+  .cabecalho-logo {
+    height: 110px;
+  }
+
+  .cabecalho-logo img {
+    height: 65px;
+  }
+
+  .hamburger {
+    right: 40px;
+  }
+
+  .nav-menu {
+    width: 350px;
+  }
+
+  .main-content {
+    padding: 60px 0;
+  }
+
+  .content-section {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 50px;
+  }
+
+  .image-placeholder {
+    height: 280px;
+  }
+
+  .text-content {
+    padding: 20px 0;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+  }
+
+  .description {
+    line-height: 1.8;
+  }
+}
+
+/* ===========================================
+   BREAKPOINT: Extra-Large devices (1300px and up)
+   =========================================== */
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1400px;
+    padding: 0 50px;
+  }
+
+  .cabecalho {
+    padding: 20px;
+  }
+
+  .cabecalho-logo {
+    height: 120px;
+  }
+
+  .cabecalho-logo img {
+    height: 70px;
+  }
+
+  .main-content {
+    padding: 80px 0;
+  }
+
+  .content-section {
+    gap: 60px;
+  }
+
+  .image-placeholder {
+    height: 320px;
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .description {
+    font-size: 1.05rem;
+    line-height: 1.85;
+  }
+
+  .description p {
+    margin-bottom: 22px;
+  }
+}
+
+/* ===========================================
+   BREAKPOINT: Extra Small devices (600px and down)
+   =========================================== */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .cabecalho {
+    padding: 8px;
+  }
+
+  .cabecalho-logo {
+    height: 70px;
+  }
+
+  .cabecalho-logo img {
+    height: 45px;
+  }
+
+  .hamburger {
+    width: 22px;
+    height: 16px;
+    right: 15px;
+  }
+
+  .hamburger-line {
+    height: 2.5px;
+  }
+
+  .nav-menu {
+    width: 260px;
+    padding-top: 50px;
+  }
+
+  .nav-menu a {
+    padding: 14px 20px;
+    font-size: 13px;
+  }
+
+  .main-content {
+    padding: 25px 0;
+  }
+
+  .content-section {
+    gap: 25px;
+  }
+
+  .image-placeholder {
+    height: 180px;
+    font-size: 0.9rem;
+  }
+
+  .text-content {
+    padding: 5px 0;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .description p {
+    margin-bottom: 14px;
+  }
+}

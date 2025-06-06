@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H2M - Nossa Solução</title>
+    <link rel="stylesheet" href="../css/problema/style.css" />
+    <link rel="stylesheet" href="../css/problema/responsive.css" />
+    <link rel="icon" href="../img/favicon.png" />
+    <script>
+      let watsonInstance;
+
+      window.watsonAssistantChatOptions = {
+        integrationID: "88a18950-7ab3-4df6-bccd-84a068144dab",
+        region: "au-syd",
+        serviceInstanceID: "68bf1d3e-747a-4cec-a070-f0384555e427",
+        onLoad: async (instance) => {
+          watsonInstance = instance;
+          await instance.render();
+
+          const botaoChat = document.querySelector(".botao-contato[data-chat]");
+          if (botaoChat) {
+            botaoChat.disabled = false;
+            botaoChat.classList.remove("desativado");
+          }
+        },
+      };
+
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      }, 0);
+    </script>
+    <link rel="stylesheet" href="../css/problema/resposnive.css" />
+    <link rel="icon" href="../img/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/0b0f2c3690.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "88a18950-7ab3-4df6-bccd-84a068144dab", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "68bf1d3e-747a-4cec-a070-f0384555e427", // The ID of your service instance.
+        onLoad: async (instance) => {
+          await instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="cabecalho">
+        <div class="cabecalho-logo">
+          <img src="../img/logo-h2m-solo.png" alt="H2M Logo." />
+        </div>
+        <button class="hamburger" id="hamburger">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+      </div>
+      <div class="overlay" id="overlay"></div>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./problema.html">Nosso Problema</a></li>
+          <li><a href="./solucao.html">Nossa Solução</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./equipe.html">Nossa Equipe</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="content-section">
+          <div class="image-placeholder">
+            <img src="../img/problema.png" alt="imagem ilustrativa" />
+          </div>
+          <div class="text-content">
+            <h2 class="section-title">Entenda nosso Problema</h2>
+            <div class="description">
+              <p>
+                Em uma emergência, o tempo é crucial. Quando desastres
+                acontecem, como incêndios ou desabamentos, as equipes de resgate
+                enfrentam um cenário caótico e a falta de visibilidade precisa.
+                Onde estão as vítimas? Como encontrá-las rapidamente em meio ao
+                caos? Sem mapeamento detalhado e visão térmica, localizar
+                pessoas em situações extremas é uma missão impossível. A falta
+                de dados em tempo real e de uma visão clara do cenário
+                compromete a tomada de decisões. Cada minuto perdido significa
+                mais vidas em risco. Além disso, as tecnologias de resgate
+                frequentemente não se integram aos sistemas de emergência
+                existentes, dificultando a coordenação entre as equipes.
+              </p>
+
+              <p>
+                A solução está em tecnologias inovadoras, como drones
+                inteligentes que oferecem mapeamento, visão térmica e integração
+                em tempo real. Elas podem salvar vidas ao fornecer informações
+                rápidas e precisas, garantindo que as equipes de resgate saibam
+                exatamente onde agir. A pergunta é: sua equipe está preparada
+                para a próxima emergência?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

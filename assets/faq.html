@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H2M - FAQ</title>
+    <link rel="stylesheet" href="../css/faq/style.css" />
+    <link rel="stylesheet" href="../css/faq/responsive.css" />
+    <link rel="icon" href="../img/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/0b0f2c3690.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "88a18950-7ab3-4df6-bccd-84a068144dab", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "68bf1d3e-747a-4cec-a070-f0384555e427", // The ID of your service instance.
+        onLoad: async (instance) => {
+          await instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-section">
+          <div class="logo-text">
+            <div class="logo-text-logo">
+              <img src="../img/logo-h2m-solo.png" alt="Logo H2M" />
+            </div>
+          </div>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+      </div>
+      <div class="overlay" id="overlay"></div>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./problema.html">Nosso Problema</a></li>
+          <li><a href="./solucao.html">Nossa Solução</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./equipe.html">Nossa Equipe</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <p class="subtitulo">
+          Aqui estão algumas das perguntas frequentes da DroneMaps.
+        </p>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">Como a API auxilia em resgates?</h3>
+            <p class="faq-description">
+              Nossa API oferece monitoramento em tempo real e mapeamento de
+              áreas afetadas, ajudando na tomada de decisões rápidas em locais
+              de difícil acesso.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">Quais são os requisitos para usar a API?</h3>
+            <p class="faq-description">
+              Para utilizar nossa API, é necessário ter um drone compatível,
+              garantir uma conexão de internet estável e uma conta registrada na
+              nossa plataforma. Além disso, é importante seguir as orientações
+              da documentação técnica para integrar a API corretamente.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">A API suporta análise de dados?</h3>
+            <p class="faq-description">
+              Sim, a API permite processar imagens e gerar relatórios para
+              otimizar as análises de segurança, identificando áreas de risco e
+              melhorando a tomada de decisão.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">A API é escalável?</h3>
+            <p class="faq-description">
+              Sim, nossa API é totalmente escalável e projetada para suportar
+              operações de grande escala. Ela permite o controle simultâneo de
+              múltiplos drones, garantindo alta eficiência em missões complexas
+              e em áreas de difícil acesso.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">Como obter suporte técnico?</h3>
+            <p class="faq-description">
+              Oferecemos suporte técnico 24/7 por meio de chat ao vivo, e-mail e
+              chamadas de vídeo. Além disso, disponibilizamos uma documentação
+              completa e tutoriais detalhados para facilitar a integração da API
+              e resolver qualquer dificuldade.
+            </p>
+          </div>
+
+          <div class="faq-item questao-item">
+            <div class="faq-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M8 12H16M12 8V16"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3 class="faq-titulo">Deseja fazer uma pergunta?</h3>
+            <div class="questao-input">
+              <input
+                type="text"
+                placeholder="Digite aqui"
+                class="questao-field"
+                aria-label="Digite sua pergunta"
+              />
+              <button class="submit-btn" aria-label="Enviar pergunta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
